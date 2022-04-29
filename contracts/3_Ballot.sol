@@ -30,9 +30,13 @@ contract Ballot {
 
     /** 
      * @dev Create a new ballot to choose one of 'proposalNames'.
-     * @param proposalNames names of proposals
      */
-    constructor(bytes32[] memory proposalNames) {
+    //constructor(bytes32[] memory proposalNames) {
+    constructor() {
+        bytes32[2] memory proposalNames;
+        proposalNames[0] = 0x6e616d6530310000000000000000000000000000000000000000000000000000;
+        proposalNames[1] = 0x6e616d6530320000000000000000000000000000000000000000000000000000;
+
         chairperson = msg.sender;
         voters[chairperson].weight = 1;
 

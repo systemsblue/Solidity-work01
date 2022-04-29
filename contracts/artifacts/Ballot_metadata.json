@@ -6,13 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "bytes32[]",
-						"name": "proposalNames",
-						"type": "bytes32[]"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -158,10 +152,7 @@
 			"kind": "dev",
 			"methods": {
 				"constructor": {
-					"details": "Create a new ballot to choose one of 'proposalNames'.",
-					"params": {
-						"proposalNames": "names of proposals"
-					}
+					"details": "Create a new ballot to choose one of 'proposalNames'."
 				},
 				"delegate(address)": {
 					"details": "Delegate your vote to the voter 'to'.",
@@ -220,11 +211,11 @@
 	},
 	"sources": {
 		"contracts/3_Ballot.sol": {
-			"keccak256": "0xdd897b48a563d1d32369fdb327187dfcd2660159cfcd3787196bb6be6a312c8d",
+			"keccak256": "0x593302816f6233c7296b07d87c3ab876751848bb9672b5ee2c49319ae90d8d9d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://551d7a6d3e2abc66a7b37fbd8b0e4c07b43c72c3b55958e66ac421348311fed4",
-				"dweb:/ipfs/Qmd4XV9j79GPfv5cgVsg62vKzaLuf6igx7VSW2BKaUyF3w"
+				"bzz-raw://e257002e9437bf242386f93a87850b4bae8424611bf0445727c53f31809c74da",
+				"dweb:/ipfs/QmUXoJzWFy9dXase7VFCT9dY1dnnZeG8GX6eewXQnnyXkj"
 			]
 		}
 	},
